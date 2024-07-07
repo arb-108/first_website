@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: rgb(255, 255, 255);
+    font-family: 'Castoro Titling', cursive;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+    
+
+  position:fixed;
+}
+  .logo{
+    color: white;
+    align-content: center;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 5px;
+ }
+ .nav-links{
+     display: inline-block;
+     margin-top: 20px;
+     margin-right: 20px;
+     list-style: none;
+     float: right;
+ }
+ .nav-links li a {
+     text-decoration: none;
+     color: azure;
+     transition: 0.3s all;
+ }
+ .nav-links li :hover{
+     color: rgb(0,255, 0);
+ }
+ .hover-line::after{
+     content:'';
+     display:block;
+     width: 0%;
+     height: 1px;
+ background-color: rgb(0, 255, 0);
+     transition: width .3;
+ }
+ .hover-line:hover::after{
+ width: 100%;
+ transition: width .5s;
+ }
+     
+     .nav-links li {
+         display: inline-block;
+         margin: 0 35px;
+ }
+.sec_1{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    background-image: url(7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    scroll-behavior: smooth
+}
+.sec_2{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    background-image: url(8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    scroll-behavior: smooth
+}
+.wid{
+    max-width: 80%;
+    margin: auto;
+}
+.p01{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+}     
+.q1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    font-size: 25px;
+    
+
+}   
+   .q2{
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-size: 25px;
+   }                                
+                                    

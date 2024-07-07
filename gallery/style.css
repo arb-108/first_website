@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Playfair+Display+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: rgb(255, 255, 255);
+    font-family: 'Castoro Titling', cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    scroll-behavior: smooth
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+    
+
+  position:fixed;
+}
+  .logo{
+    color: white;
+    align-content: center;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 5px;
+ }
+ .nav-links{
+     display: inline-block;
+     margin-top: 20px;
+     margin-right: 20px;
+     list-style: none;
+     float: right;
+ }
+ .nav-links li a {
+     text-decoration: none;
+     color: azure;
+     transition: 0.3s all;
+ }
+ .nav-links li :hover{
+     color: rgb(0,255, 0);
+ }
+ .hover-line::after{
+     content:'';
+     display:block;
+     width: 0%;
+     height: 1px;
+ background-color: rgb(0, 255, 0);
+     transition: width .3;
+ }
+ .hover-line:hover::after{
+ width: 100%;
+ transition: width .5s;
+ }
+     
+     .nav-links li {
+         display: inline-block;
+         margin: 0 35px;
+ }
+ .container{
+    max-width: 90%;
+    margin: auto;
+    padding-top: 100px;
+ }
+ .gallery{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+ }
+ .card{
+    width: 400px;
+    
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    margin: 10px 10px;
+    background-size: cover;
+    background-position: top;
+    
+ }
+
+.card1{
+    background-image: url(./Images/7.jpg);
+    height: 300px;
+    }
+
+    .card2{
+        background-image: url(./Images/8.jpg);
+        height: 300px;
+        }
+.card3{
+            background-image: url(./Images/9.jpg);
+            height: 300px;
+            }
+ .card4{
+                background-image: url(./Images/4.jpg);
+                height: 300px;
+                }
+.card5{
+                    background-image: url(./Images/5.jpg);
+                    height: 300px;
+                    }
+.card6{
+                        background-image: url(./Images/6.jpg);
+                        height: 300px;
+                        }
+.card7{
+                            background-image: url(./Images/1.jpg);
+                            height: 450px;
+                            }
+.card8{
+                                background-image: url(./Images/2.jpg);
+                                height: 450px;
+                                }
+.card9{
+                                    background-image: url(./Images/3.jpg);
+                                    height: 450px;
+                                    }
+.card10{
+                                        background-image: url(./Images/10.jpg);
+                                        height: 450px;
+                                        }
+.card11{
+                                            background-image: url(./Images/12.jpg);
+                                        height: 450px;}
+.card12{
+                                            background-image: url(./Images/13.jpg);
+                                        height: 450px;}
+
+                                           
+                                    
